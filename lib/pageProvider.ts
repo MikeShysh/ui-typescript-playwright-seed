@@ -19,4 +19,4 @@ const pageProvider = (page) => {
     }
 }
 */
-export const pageProvider = (page) => { new PageProvider(page) }
+export const pageProvider = (page) => { return new PageProvider(page) }
