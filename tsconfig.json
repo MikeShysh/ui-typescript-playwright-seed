@@ -1,0 +1,22 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "./built",
+        "target": "es2015",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        /*"types": [
+          "node",
+          "@types/chai",
+          "@types/mocha"
+        ]*/
+    }
+}
